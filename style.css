@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+#title {
+    color: rgb(49, 3, 0);
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.main-container {
+    margin-top: 23px;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: rgb(240, 240, 240);
+    border: rgb(49, 3, 0) solid 2px;
+}
