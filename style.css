@@ -66,7 +66,25 @@ footer {
     width: 8px;
     height: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background: rgb(94, 94, 94);
+}
+
+#controls {
+    margin-right: 30px;
+}
+
+#regenbtn {
+    border: none;
+    background-color: rgb(207, 207, 207);
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.button:focus {
+    outline: none;
+    background-color: rgb(143, 143, 143);
 }
